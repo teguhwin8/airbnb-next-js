@@ -8,6 +8,15 @@ const Banner = () => {
 				layout="fill"
 				objectFit="cover"
 			/>
+
+			<div className="absolute top-1/2 w-full text-center">
+				<p className="text-sm sm:text-lg">
+					Not sure where to go? Perfect.
+				</p>
+				<button className="bg-white rounded-full font-bold shadow-md hover:shadow-xl text-purple-500 cursor-pointer px-10 py-3 mt-3 active:scale-90 transition duration-150">
+					I'm flexible
+				</button>
+			</div>
 		</div>
 	)
 }
