@@ -14,7 +14,7 @@ const Banner = () => {
 					Not sure where to go? Perfect.
 				</p>
 				<button className="bg-white rounded-full font-bold shadow-md hover:shadow-xl text-purple-500 cursor-pointer px-10 py-3 mt-3 active:scale-90 transition duration-150">
-					I'm flexible
+					I&apos;m flexible
 				</button>
 			</div>
 		</div>
