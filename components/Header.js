@@ -40,6 +40,12 @@ function Header() {
 					<MenuIcon className="h-6" />
 				</div>
 			</div>
+
+			{searchInput && (
+				<div>
+					
+				</div>
+			)}
 		</header>
 	)
 }
