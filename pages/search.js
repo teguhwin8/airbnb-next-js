@@ -8,7 +8,7 @@ function search() {
 	const router = useRouter()
 
 	const { location, startDate, endDate, noOfGuests } = router.query
-
+	// console.log(router.query)
 	const formattedStartDate = format(new Date(startDate), "dd MMMM yy")
 	const formattedEndDate = format(new Date(endDate), "dd MMMM yy")
 	const range = `${formattedEndDate} - ${formattedStartDate}`
@@ -21,7 +21,7 @@ function search() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header />
+			<Header placeholder={`${location} | ${range} for ${noOfGuests} Guests`} />
 
 			<main className="flex">
 				<section className="flex-grow pt-14 px-6">
