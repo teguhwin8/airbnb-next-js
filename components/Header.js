@@ -24,6 +24,10 @@ function Header({placeholder}) {
 		setEndDate(ranges.selection.endDate)
 	}
 
+	const resetInput = () => {
+		setSeacrhInput("")
+	}
+
 	const search = () => {
 		router.push({
 			pathname: "/search",
@@ -40,10 +44,6 @@ function Header({placeholder}) {
 		startDate: startDate,
 		endDate: endDate,
 		key: "selection",
-	}
-
-	const resetInput = () => {
-		setSeacrhInput("")
 	}
 
 	return (
